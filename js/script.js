@@ -21,7 +21,7 @@ formulario.addEventListener("submit", (evento) => {
     const porcentajeAumento = parseFloat(entradaPorcentaje.value);
 
     // Validación básica
-    if  (empleado.nombre == '' | isNaN(empleado.sueldo) || isNaN(porcentajeAumento)) {
+    if  (empleado.nombre == "" || isNaN(empleado.sueldo) || isNaN(porcentajeAumento)) {
         resultado.innerHTML = "Por favor ingrese valores válidos.";
         return;
     }
